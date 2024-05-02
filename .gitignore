@@ -1,2 +1,8 @@
+# Ignore entire node_modules folder
 node_modules
+
+# Ignore environment variables
+.env
+
+# Ignore vscode configurations
 .vscode/*
