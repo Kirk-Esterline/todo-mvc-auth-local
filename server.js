@@ -11,7 +11,7 @@ const mainRoutes = require('./routes/main')
 const todoRoutes = require('./routes/todos')
 const PORT = process.env.PORT || 8000
 
-require('dotenv').config({path: './config/.env'})
+require('dotenv').config({path: '.env'})
 
 // Passport config
 require('./config/passport')(passport)
